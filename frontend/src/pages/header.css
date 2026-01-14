@@ -1,0 +1,61 @@
+/* HEADER */
+.header-crear {
+  background-color: #140c08;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid #cba35c;
+}
+
+/* LOGO */
+.logo-area-crear {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo-img-crear {
+  width: 55px;
+}
+
+.logo-text-crear {
+  font-size: 26px;
+  font-weight: bold;
+  color: #f2c879;
+}
+
+/* NAV */
+.nav-crear {
+  display: flex;       /* Horizontal */
+  gap: 15px;           /* Separación entre botones */
+  align-items: center;
+}
+
+/* BOTONES */
+.nav-btn {
+  padding: 10px 16px;
+  border-radius: 8px;
+  border: 1px solid #cba35c;
+  background-color: #2a1a14;
+  color: #f2c879;
+  text-decoration: none;
+  font-weight: 500;
+  transition: all 0.3s;
+}
+
+.nav-btn:hover {
+  background-color: #3c261d;
+  transform: scale(1.05);
+}
+
+/* BOTÓN CERRAR SESIÓN */
+.logout {
+  background-color: #b23434;
+  border-color: #d14747;
+  color: white;
+}
+
+.logout:hover {
+  background-color: #d14747;
+}

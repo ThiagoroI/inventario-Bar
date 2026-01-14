@@ -1,0 +1,182 @@
+/* crearPedido.css */
+
+/* CONTENEDOR PRINCIPAL -------------------------*/
+.crear-pedido-container {
+    color: #f2c879;
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+    background-color: #1b0f0a;
+}
+
+/* HEADER ----------------------------*/
+.header-crear {
+    background-color: #140c08;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #cba35c;
+}
+
+.logo-area-crear {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo-img-crear {
+    width: 55px;
+}
+
+.logo-text-crear {
+    font-size: 26px;
+    font-weight: bold;
+}
+
+/* NAV --------------------------------*/
+.nav-crear a {
+    background-color: #2a1a14;
+    padding: 10px 18px;
+    margin-left: 10px;
+    border-radius: 8px;
+    border: 1px solid #cba35c;
+    color: #f2c879;
+    cursor: pointer;
+    text-decoration: none;
+    transition: 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-crear a:hover {
+    background-color: #3c261d;
+    transform: scale(1.05);
+}
+
+.nav-crear a.logout {
+    background-color: #b23434;
+    color: white;
+    border-color: #d14747;
+}
+
+.nav-crear a.logout:hover {
+    background-color: #d14747;
+}
+
+/* CONTENEDOR DEL FORMULARIO -------------------*/
+.form-container {
+    max-width: 900px;
+    margin: 3rem auto;
+    background-color: #2a1a14;
+    padding: 2rem;
+    border-radius: 12px;
+    border: 2px solid #cba35c;
+    box-shadow: 0px 0px 10px #00000055;
+}
+
+/* TITULOS ------------------------------------*/
+.titulo-crear {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+
+.subtitulo-crear {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+/* SELECT MESAS -------------------------------*/
+.select-mesa {
+    border: 1px solid #cba35c;
+    background-color: #3c261d;
+    color: #f2c879;
+    padding: 0.8rem;
+    border-radius: 8px;
+    width: 100%;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+/* BOTONES DE PRODUCTOS -----------------------*/
+.producto-btn {
+    padding: 1rem;
+    background-color: #1b0f0a;
+    border: 1px solid #cba35c;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+    text-align: center;
+}
+
+.producto-btn:hover {
+    background-color: #cba35c;
+    color: #000;
+}
+
+/* TABLA RESUMEN -----------------------------*/
+.tabla-resumen {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #cba35c;
+    margin-bottom: 1.5rem;
+}
+
+.tabla-resumen th, .tabla-resumen td {
+    border: 1px solid #cba35c;
+    padding: 0.5rem;
+    text-align: center;
+}
+
+.tabla-resumen th {
+    background-color: #3c261d;
+}
+
+/* INPUT DE CANTIDAD -------------------------*/
+.input-cantidad {
+    width: 60px;
+    text-align: center;
+    padding: 0.3rem;
+    background-color: #3c261d;
+    border: 1px solid #cba35c;
+    border-radius: 6px;
+}
+
+/* BOTÓN CREAR PEDIDO ------------------------*/
+.btn-crear-pedido {
+    display: block;
+    width: 50%;
+    margin: 1.5rem auto 0 auto;
+    padding: 1rem;
+    background-color: #2a1a14;
+    border: 2px solid #cba35c;
+    border-radius: 10px;
+    color: #f2c879;
+    font-size: 1.25rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+    text-align: center;
+}
+
+.btn-crear-pedido:hover {
+    background-color: #cba35c;
+    color: #000;
+}
+
+/* MENSAJES ----------------------------------*/
+.mensaje-exito {
+    color: #4ade80;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.mensaje-error {
+    color: #f87171;
+    text-align: center;
+    margin-top: 1rem;
+}
